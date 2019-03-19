@@ -1,0 +1,1 @@
+{"version":3,"sources":["aboutUs.scss"],"names":[],"mappings":"AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,WAAW,GAChC","file":"global.css","sourcesContent":["body {\r\n    background-color: lightyellow;\r\n}"]}

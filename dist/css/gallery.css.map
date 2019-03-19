@@ -1,0 +1,1 @@
+{"version":3,"sources":["gallery.scss"],"names":[],"mappings":"AAAA,KAAK,CACD,GAAG,CAAC;EACA,gBAAgB,EAAE,IAAI,GACzB","file":"gallery.css","sourcesContent":[".tile { \r\n    div {\r\n        background-color: plum;\r\n    }\r\n}"]}

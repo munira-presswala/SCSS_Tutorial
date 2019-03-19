@@ -1,0 +1,1 @@
+{"version":3,"sources":["contactUs.scss"],"names":[],"mappings":"AAAA,IAAI,CACA,GAAG,CAAC;EACA,KAAK,EAAG,IAAI,GACf","file":"contactUs.css","sourcesContent":["body {\r\n    div {\r\n        color : blue;\r\n    }\r\n}"]}
