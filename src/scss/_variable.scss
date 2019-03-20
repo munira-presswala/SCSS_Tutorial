@@ -1,1 +1,36 @@
-$primary-color: #333;
+$font-stack:    Helvetica, sans-serif;
+$primary-color : #333;
+$bg-color : #2c3e50;
+$hover-color : #16a085;
+$text-color: #ffffff;
+$lg: 2rem;
+
+h1 {
+    color : $primary-color;
+}
+
+p {
+    color : $primary-color;
+}
+
+nav {
+    ul {
+        background: $bg-color;
+        margin: 0;
+        list-style: none;
+    }
+
+    li { 
+        display: inline-block;
+    }
+
+    a { 
+        color: $text-color;
+        display: inline-block;
+        padding : 10px 16px;
+        text-decoration : none;
+        &:hover {
+            background: $hover-color;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.container {
+  margin: 0 0 10px 15px;
+  height: 300px;
+  width: 60% h1;
+  width-font-family: Helvatica, Arial, sans-serif; }
+
+body {
+  background-color: #b71c1c; }
+
+body .container {
+  width: 80%;
+  height: 50vh;
+  margin: auto;
+  background: #e57373; }
+
+.text-content {
+  color: darkorchid; }
+
+@media (min-width: 767px) {
+  .text-content {
+    color: aqua; } }
+
+/*# sourceMappingURL=listDataType.css.map */

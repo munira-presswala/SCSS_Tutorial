@@ -1,0 +1,13 @@
+abc (buttonType, color, size) =>{
+    background-color: 
+    buttonType===darkgreen? #ffff
+    buttonType===lgiht? #ffff
+    color:$green
+    padding: 10px 20px
+    text-align:center;
+}
+
+
+@include abbc(darkgreen, $green, large)
+@include abbc(transparent, $green, large)
+@include abbc(disabled, $green, large)

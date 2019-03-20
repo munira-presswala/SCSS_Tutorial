@@ -1,0 +1,54 @@
+$sass_list : Helvatica, Arial, sans-serif;
+$sass_no_comma: 0 0 10px 15px;
+$lister : 0px, (10px 0), 30px;
+$red-map : (light: #e57373,medium:#f44336,dark:#b71c1c);
+$h:50vh;
+$w: 80%;
+$breakpoints : (small:767px,medium:992px,large:1200px);
+$auto: auto;
+
+@mixin respond-to($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+        @media (min-width : #{map-get($breakpoints, $breakpoint)}){
+            @content;
+        }
+    } 
+    @else {
+        @warn "Unfortunately , no value could be retrieved from '#{breakpoint}.'" + 
+        "Please make sure it is defined in '$breakpoints' map.";
+    }
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container { 
+    margin: $sass_no_comma;
+    height: 300px;
+    width: 60%
+
+    h1 { 
+        font-family: $sass_list;
+    }
+}
+
+body { 
+    background-color: map-get($red-map,dark);
+    .container { 
+        width: $w;
+        height: $h;
+        margin: $auto;
+        background: map-get($red-map, light);
+    }
+}
+
+.text-content { 
+    color : darkorchid;
+
+    @include respond-to(small){
+        color : aqua;
+    }
+}
+
